@@ -1,0 +1,53 @@
+{
+  "BraveRewardsDisabled": true,
+  "BraveWalletDisabled": true,
+  "BraveVPNDisabled": true,
+
+  "BraveAIChatEnabled": false,
+
+  "DriveDisabled": true,
+
+  "PasswordManagerEnabled": false,
+  "PasswordSharingEnabled": false,
+  "PasswordLeakDetectionEnabled": false,
+
+  "QuickAnswersEnabled": false,
+  "ParcelTrackingEnabled": false,
+  "ShoppingListEnabled": false,
+
+  "BrowserGuestModeEnabled": false,
+  "BrowserSignin": 0,
+
+  "BuiltInDnsClientEnabled": false,
+  "DefaultBrowserSettingEnabled": false,
+  "BackgroundModeEnabled": false,
+
+  "AutofillCreditCardEnabled": false,
+
+  "CloudReportingEnabled": false,
+  "SafeBrowsingExtendedReportingEnabled": false,
+  "SafeBrowsingSurveysEnabled": false,
+  "SafeBrowsingDeepScanningEnabled": false,
+
+  "DeviceMetricsReportingEnabled": false,
+  "HeartbeatEnabled": false,
+  "DeviceActivityHeartbeatEnabled": false,
+  "LogUploadEnabled": false,
+
+  "ReportAppInventory": false,
+  "ReportDeviceActivityTimes": false,
+  "ReportDeviceAppInfo": false,
+  "ReportDeviceSystemInfo": false,
+  "ReportDeviceUsers": false,
+
+  "ReportWebsiteTelemetry": false,
+  "MetricsReportingEnabled": false,
+
+  "DefaultGeolocationSetting": 2,
+  "DefaultNotificationsSetting": 2,
+  "DefaultLocalFontsSetting": 2,
+  "DefaultSensorsSetting": 2,
+  "DefaultSerialGuardSetting": 2,
+
+  "ExtensionManifestV2Availability": 2
+}
