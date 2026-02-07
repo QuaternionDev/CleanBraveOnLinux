@@ -1,11 +1,40 @@
-# CleanBrave
-Debloat Brave using Windows Registry
+# CleanBraveOnLinux
+Debloat Brave using Shell script
+
+Created by QuaternionDev
+
+Original CleanBrave repo created by Neonity
+
+## ✅ Compatibility
+
+Fully compatible with all well known Arch/Debian/Fedora based distros of Linux.
+
+Brave needs to be installed via native package manager (pacman, apt, yay, dnf etc.)
+
+Brave installed via Flatpak is NOT compatible!!!
+
+## How To Use
+
+### 1. Clone the repo
+```
+git clone https://github.com/QuaternionDev/CleanBraveOnLinux
+```
+### 2. Run script
+```
+install.sh
+```
+
+Yep, that's all.
+
+After running the script, you can check if changes have been made, by opening Settings.
+
+If you see "Your browser is managed by your organization", changes have been made, script sucessfully ran.
 
 ## 🔒 Disabled Features
 
 The following Brave features are explicitly disabled:
 
-| Feature                         | Registry Key                       | Status    |
+| Feature                         | Policy                       | Status    |
 |---------------------------------|------------------------------------|-----------|
 | Brave Rewards                   | `BraveRewardsDisabled`            | Disabled  |
 | Brave Wallet                    | `BraveWalletDisabled`             | Disabled  |
@@ -31,7 +60,7 @@ The following Brave features are explicitly disabled:
 
 All telemetry, reporting, and device data sharing settings are disabled:
 
-| Functionality                      | Registry Key                           | Status    |
+| Functionality                      | Policy                           | Status    |
 |------------------------------------|----------------------------------------|-----------|
 | Cloud Reporting                    | `CloudReportingEnabled`               | Disabled  |
 | Safe Browsing Extended Reporting   | `SafeBrowsingExtendedReportingEnabled`| Disabled  |
@@ -48,7 +77,7 @@ All telemetry, reporting, and device data sharing settings are disabled:
 
 These default settings control how Brave handles specific browser API permissions:
 
-| API / Setting              | Registry Key                     | Value | Description        |
+| API / Setting              | Policy                     | Value | Description        |
 |----------------------------|----------------------------------|--------|--------------------|
 | Geolocation                | `DefaultGeolocationSetting`     | `2`    | Ask on use         |
 | Notifications              | `DefaultNotificationsSetting`   | `2`    | Ask on use         |
@@ -60,17 +89,12 @@ These default settings control how Brave handles specific browser API permission
 
 ## 🧩 Extensions
 
-| Setting                        | Registry Key                         | Value | Description                                  |
+| Setting                        | Policy                         | Value | Description                                  |
 |--------------------------------|--------------------------------------|--------|----------------------------------------------|
 | Extension Manifest V2 Support | `ExtensionManifestV2Availability`    | `2`    | Allow legacy Manifest V2 extensions          |
 
 ---
 
 ## ✅ Notes
-
-- All `dword:00000000` = Disabled
-- All `dword:00000001` = Enabled
-- All `dword:00000002` = Prompt (Ask) for permission
-- Empty strings like `""` indicate no reporting endpoint configured
 
 This configuration is intended to maximize user privacy and minimize online tracking or feature creep in Brave browser.
