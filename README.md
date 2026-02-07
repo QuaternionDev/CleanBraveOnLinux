@@ -3,7 +3,7 @@ Debloat Brave using Shell script
 
 Created by QuaternionDev
 
-Original CleanBrave repo created by Neonity
+Original CleanBrave repo created by NeonityDev
 
 ## ✅ Compatibility
 
