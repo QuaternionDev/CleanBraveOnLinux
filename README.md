@@ -19,9 +19,13 @@ Brave installed via Flatpak is NOT compatible!!!
 ```
 git clone https://github.com/QuaternionDev/CleanBraveOnLinux
 ```
-### 2. Run script
+### 2. Go to the cloned repo's directory
 ```
-install.sh
+cd CleanBraveOnLinux
+```
+### 3. Run script
+```
+./install.sh
 ```
 
 Yep, that's all.
