@@ -4,7 +4,8 @@ set -euo pipefail
 POLICY_DIR="/etc/brave/policies/managed"
 POLICY_FILE="$POLICY_DIR/cleanbrave.json"
 
-echo "== CleanBrave Linux Installer =="
+echo "== CleanBraveOnLinux Install Script =="
+echo "== Created by QuaternionDev =="
 
 # ---- Check Brave installed ----
 if ! command -v brave >/dev/null 2>&1; then
