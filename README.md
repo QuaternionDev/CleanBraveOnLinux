@@ -23,7 +23,11 @@ git clone https://github.com/QuaternionDev/CleanBraveOnLinux
 ```
 cd CleanBraveOnLinux
 ```
-### 3. Run script
+### 3. Make the script runnable
+```
+chmod +x install.sh
+```
+### 4. Run script
 ```
 ./install.sh
 ```
