@@ -5,6 +5,8 @@ Created by QuaternionDev
 
 Original CleanBrave repo created by NeonityDev
 
+Video tutorial: https://youtu.be/FNe_WXLjfIA
+
 ## ✅ Compatibility
 
 Fully compatible with all well known Arch/Debian/Fedora based distros of Linux.
