@@ -15,6 +15,8 @@ Brave needs to be installed via native package manager (pacman, apt, yay, dnf et
 
 Brave installed via Flatpak is NOT compatible!!!
 
+ChromeOS (and Flex) in not supported!! (Installed through built-in Linux Developer Environment)
+
 ## How To Use
 
 ### 1. Clone the repo
